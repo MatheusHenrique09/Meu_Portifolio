@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfólio de Matheus Henrique - Desenvolvedor Web e Back-End">
+  <title>Portfólio - Matheus Henrique</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="shortcut icon" href="img/programacao.png" type="image/x-icon">
+</head>
+<body>
+  <canvas id="star-canvas"></canvas>
+  <canvas id="background-canvas"></canvas>
+
+
+  <button id="theme-toggle" class="btn-cta" style="position: fixed; top: 20px; right: 20px; z-index: 1001;">🌙</button>
+  <button id="btn-topo" class="floater" title="Voltar ao topo">⬆</button>
+
+  <header>
+      <nav class="navbar">
+        
+      <div class="logo"><a style="text-decoration: none;" href="">Matheus.dev</a></div>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li class="dropdown">
+      <button class="dropdown-toggle">Contato</button>
+      <div class="dropdown-menu">
+        <a href="https://wa.me/5521973835834?text=Olá%2C+vim+pelo+seu+site+e+gostaria+de+falar+com+você." target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://github.com/MatheusHenrique09" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/matheus-mendes-9a10b0290" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <a href="cv/Matheus_Curriculo.pdf" target="_blank" title="Currículo"><i class="fas fa-file-alt"></i> Currículo</a>
+      </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="img/62885bc372e05ee0dde3b4f0dcf22b2c.jpg" alt="Foto de Matheus Henrique" />
+      </div>
+      <div class="hero-text">
+        <h1>Bem-vindo ao meu portfólio!</h1>
+        <p class="typing-effect" style="font-family: Consolas ">Sou Matheus Henrique, desenvolvedor focado em soluções web e back-end.</p>
+        <br><a href="#projetos" class="btn-cta">Veja meus projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+  <h2>Sobre Mim</h2>
+
+  <p>Meu nome é Matheus Henrique e atualmente curso Análise e Desenvolvimento de Sistemas.</p>
+
+  <p>Sou apaixonado por tecnologia e pela criação de soluções que facilitem a vida das pessoas.</p>
+
+  <p>Tenho conhecimentos em linguagens como Java, PHP, SQL e HTML/CSS.</p>
+
+  <p>Já participei de projetos acadêmicos relevantes, incluindo sistemas de vendas, bibliotecas digitais e simulações de lógica de combate.</p>
+
+  <p>Para conhecer melhor minha trajetória e habilidades, você pode acessar meu 
+    <a href="cv/Matheus_Curriculo.pdf" target="_blank" rel="noopener noreferrer">currículo completo</a>.
+  </p>
+
+  <p>Busco sempre aprimorar minhas competências em frameworks modernos e boas práticas de desenvolvimento.</p>
+
+  <p>Sou uma pessoa dedicada, autodidata e com grande vontade de contribuir em projetos desafiadores que tragam impacto positivo.</p>
+</section>
+
+
+
+  <section id="projetos" class="projetos">
+    <h2>Projetos</h2>
+    <div class="card">
+      <h3>Simulador de Lutas em Java</h3>
+      <p>Sistema com histórico, ranking e animações no console.</p>
+    </div>
+    <div class="card">
+      <h3>Sistema de Vendas com PHP & MySQL</h3>
+      <p>Gerenciamento de produtos e vendas.</p>
+    </div>
+    <div class="card">
+      <h3>Sistema de Biblioteca</h3>
+      <p>Cadastro de livros e controle de empréstimos.</p>
+    </div>
+  </section>
+    
+  <section id="game">
+  <!-- conteúdo do jogo -->
+   <div class="container">
+    <canvas id="snake" width="400" height="400"></canvas>
+    <p>Use as teclas de seta para controlar a cobrinha</p>
+  </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Matheus Henrique. Todos os direitos reservados.</p>
+      <div class="social-icons">
+        <a href="https://wa.me/5521973835834?text=Olá%2C+vim+pelo+seu+site+e+gostaria+de+falar+com+você."  target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/MatheusHenrique09" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/matheus-mendes-9a10b0290" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
