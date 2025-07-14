@@ -126,8 +126,8 @@ if (backgroundCanvas) {
       backgroundCanvas.height / 2,
       backgroundCanvas.width
     );
-    gradient.addColorStop(0, "#fffacd"); // amarelo claro
-    gradient.addColorStop(1, "#87cefa"); // azul céu
+    gradient.addColorStop(0, "#c9e0e0ff"); // amarelo claro
+    gradient.addColorStop(1, "#85aec7ff"); // azul céu
     bgCtx.fillStyle = gradient;
     bgCtx.fillRect(0, 0, backgroundCanvas.width, backgroundCanvas.height);
   }
